@@ -24,7 +24,7 @@ holiday_hash.each do |season, data|
     if supply == supply[1]
       return "#{supply}"
     end
-  
+
     binding.pry
 end
 
